@@ -1,18 +1,20 @@
-# Password Generator (Python)
+#  Password Generator (Python)
 
-This project is a simple Python console application that generates secure random passwords.
+A simple Python console application that generates secure random passwords.
 
-## Features
+##  Features
 
-- Generate random passwords
+- Generate secure random passwords
 - Custom password length
 - Uses letters, numbers and symbols
+- Input validation (minimum 6 characters)
 
-## Technologies
+##  Technologies
 
-- Python
+- Python 3
+- Built-in libraries (`random`)
 
-## How to run
+##  How to run
 
 1. Run the program:
 
@@ -20,11 +22,37 @@ This project is a simple Python console application that generates secure random
 python main.py
 ```
 
-2. Enter the desired password length.
+2. Enter the desired password length (minimum 6)
 
-Example:
+##  Example
 
 ```
-Enter password length: 12
-Generated password: A$k9!dP2#xQ1
+========================================
+PASSWORD GENERATOR
+========================================
+
+Enter password length (minimum 6): 12
+
+========================================
+Password generated successfully!
+Your password: A8#kL9$mP2@x
+Length: 12 characters
+========================================
 ```
+
+## Project structure
+
+```
+password-generator-python/
+│── main.py
+│── README.md
+```
+
+##  Purpose
+
+This project was built to practice Python fundamentals such as:
+
+- Functions
+- Input validation
+- Random data generation
+- Clean code structure
